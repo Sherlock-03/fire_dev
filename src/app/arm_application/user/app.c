@@ -49,7 +49,7 @@ void app_init(void)
     debug_channel_set(DEBUG_CHAN_UART);
     app_cli_init();
     //breath_led_init();
-    //lamp_init();
+    lamp_init();
 //    gyro_init();
 //    ir_init();
     sys_init();

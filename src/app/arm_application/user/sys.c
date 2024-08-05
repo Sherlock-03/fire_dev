@@ -49,9 +49,9 @@
 uint16_t g_previous_led_brightness = 0, g_previous_led_color_temperature = 0;
 
 /* system task moudle */
-#define SYS_TASK_STACK_SIZE 128
-static StackType_t sys_task_stack[SYS_TASK_STACK_SIZE];
-static StaticTask_t sys_task_ctrl_block;
+//#define SYS_TASK_STACK_SIZE 128
+//static StackType_t sys_task_stack[SYS_TASK_STACK_SIZE];
+//static StaticTask_t sys_task_ctrl_block;
 // TaskHandle_t sys_task_handle = NULL; /* 动态创建有问题，会卡死 */
 
 /* Forward functions */
@@ -60,7 +60,7 @@ static void sys_task(void *parameter);
 /* Functions */
 status_t sys_init(void)
 {
-    xTaskCreateStatic(sys_task, "sys_task", 128, NULL, tskIDLE_PRIORITY + 1, sys_task_stack, &sys_task_ctrl_block);
+    xTaskCreate(sys_task, "sys_task", 128, NULL, tskIDLE_PRIORITY + 1, NULL);
 
     return status_ok;
 }

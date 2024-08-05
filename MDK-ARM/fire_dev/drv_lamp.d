@@ -30,3 +30,10 @@ fire_dev\drv_lamp.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 fire_dev\drv_lamp.o: ../Core/Inc/tim.h
 fire_dev\drv_lamp.o: ../Core/Inc/main.h
 fire_dev\drv_lamp.o: ../src/drv/lamp/drv_lamp.h
+fire_dev\drv_lamp.o: ../src/lib/type/lib_type.h
+fire_dev\drv_lamp.o: D:\keil\ARM\ARM_Complier_5.06\Bin\..\include\time.h
+fire_dev\drv_lamp.o: ../src/lib/cli/lib_cli.h
+fire_dev\drv_lamp.o: ../src/lib/cli/lib_cli_config.h
+fire_dev\drv_lamp.o: ../src/app/arm_application/config.h
+fire_dev\drv_lamp.o: ../src/lib/cli/lib_cli_custom.h
+fire_dev\drv_lamp.o: D:\keil\ARM\ARM_Complier_5.06\Bin\..\include\stdlib.h

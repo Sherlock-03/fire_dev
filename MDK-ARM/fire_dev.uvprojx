@@ -891,7 +891,7 @@
             <File>
               <FileName>lamp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\lib\lamp\lamp.c</FilePath>
+              <FilePath>..\src\app\arm_application\user\drv\lamp.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -9,7 +9,6 @@ extern "C" {
 #define   LAMP_DEBUG 1
 
 status_t lamp_init(void);
-void led_color();
 
 
 

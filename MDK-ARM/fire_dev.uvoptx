@@ -891,7 +891,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\src\lib\lamp\lamp.c</PathWithFileName>
+      <PathWithFileName>..\src\app\arm_application\user\drv\lamp.c</PathWithFileName>
       <FilenameWithoutPath>lamp.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

@@ -26,7 +26,7 @@
 
 uint32_t capture_time = 0;
 uint32_t charge_time = 65;
-static uint16_t g_ir_stat = 0;
+//static uint16_t g_ir_stat = 0;
 
 
 static void TPAD_Reset(void)
@@ -83,5 +83,6 @@ status_t capbutn_get_value (void)
         __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_4, 0);
 
     }
+    return status_ok;
 
 }

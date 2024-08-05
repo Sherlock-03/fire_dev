@@ -71,9 +71,10 @@ fire_dev\app.o: ../src/lib/led/led_breath.h
 fire_dev\app.o: ../src/drv/mpu6050/drv_mpu6050.h
 fire_dev\app.o: ../src/lib/gyro/gyro.h
 fire_dev\app.o: ../src/lib/capbutn/capbutn.h
-fire_dev\app.o: ../src/lib/lamp/lamp.h
+fire_dev\app.o: ../src/drv/lamp/drv_lamp.h
 fire_dev\app.o: ../src/app/arm_application/define.h
 fire_dev\app.o: ../src/app/arm_application/user/app.h
 fire_dev\app.o: ../src/app/arm_application/user/sys.h
 fire_dev\app.o: ../src/app/arm_application/user/cli.h
 fire_dev\app.o: ../src/lib/uart/lib_uart.h
+fire_dev\app.o: ../src/app/arm_application/user/drv/lamp.h

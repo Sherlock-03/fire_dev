@@ -62,11 +62,12 @@ extern "C"
 #include "drv/mpu6050/drv_mpu6050.h"
 #include "lib/gyro/gyro.h"
 #include "lib/capbutn/capbutn.h"
-#include "lib/lamp/lamp.h"
+
 
 //#include "lib/memory/lib_mem.h"
 
 /* driver moudle */
+#include "drv/lamp/drv_lamp.h"
 //#include "drv/humiture/drv_aht30.h"
 //#include "drv/rtc/drv_rtc_ds1338.h"
 //#include "drv/rtc/drv_rtc.h"
@@ -80,6 +81,7 @@ extern "C"
 #include "app/arm_application/user/app.h"
 #include "app/arm_application/user/sys.h"
 #include "app/arm_application/user/cli.h"
+#include "app/arm_application/user/drv/lamp.h"
 
 //#include "app/arm_application/user/drv/led.h"
 //#include "app/arm_application/user/drv/fan.h"
